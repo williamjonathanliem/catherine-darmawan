@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import portrait from '../assets/potrait.png';
 import Ornament from '../components/Ornament';
 import LaceBorder from '../components/LaceBorder';
 import Footer from '../components/Footer';
@@ -61,9 +62,11 @@ export default function About() {
         {/* Hero */}
         <div className="about-hero">
           <div className="about-image-wrap reveal">
-            <div className="img-placeholder" style={{ width: '100%', aspectRatio: '3/4' }}>
-              Portrait
-            </div>
+            <img
+              src={portrait}
+              alt="Catherine Darmawan"
+              style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }}
+            />
           </div>
 
           <div className="about-right">

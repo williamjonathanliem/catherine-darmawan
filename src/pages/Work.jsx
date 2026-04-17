@@ -3,53 +3,70 @@ import Ornament from '../components/Ornament';
 import LaceBorder from '../components/LaceBorder';
 import Footer from '../components/Footer';
 
+import imgOrchid      from '../assets/works/orchird.png';
+import imgVendetta    from '../assets/works/vendetta.png';
+import imgUntitled    from '../assets/works/untitled.png';
+import imgEnameling   from '../assets/works/enameling.png';
+import imgBake        from '../assets/works/bake.png';
+import imgCare        from '../assets/works/care.png';
+import imgPhotography from '../assets/works/photography.png';
+import imgVideography from '../assets/works/videography.gif';
+
 const projects = [
   {
     title: 'Orchid Arm Cuff',
     tag: 'Copper · Jewellery',
     height: 340,
+    img: imgOrchid,
     desc: 'Inspired by the orchid flower, this piece curls around the arm mimicking a leaf. Sleek and minimalist — perfect for events and daily wear.',
   },
   {
     title: 'Vendetta',
     tag: 'Copper & Silver · Jewellery',
     height: 280,
+    img: imgVendetta,
     desc: 'An eye patch accessory crafted using metal manipulation techniques to create a bent, edgy look. A bold statement piece for themed events.',
   },
   {
     title: 'Untitled',
     tag: 'Aluminium Wire · Gold Plate · Epoxy',
     height: 380,
+    img: imgUntitled,
     desc: 'Aluminium wire (gold plated), hand-mixed epoxy bead colours, and a brass pendant with a laser-cut Rhino 7 logo set in clear epoxy.',
   },
   {
     title: 'Enameling',
     tag: 'Copper · Cloisonné & Champleve',
     height: 300,
+    img: imgEnameling,
     desc: 'Four motifs: fish, Egyptian half-circle, flower & leaf, and a fountain with bird and cloud. Two enameling techniques on copper flat sheet.',
   },
   {
     title: 'Bake',
     tag: 'Jelutong Wood · Acrylic · AutoCAD',
     height: 320,
+    img: imgBake,
     desc: 'A wooden toy for ages 3–4 featuring Velcro bread-shaped pieces. Laser-cut via AutoCAD designs. Develops basic cutting skills for children.',
   },
   {
     title: 'Care · Ferris Wheel Notepad',
     tag: 'Ice Cream Sticks · Acrylic · Magnet',
     height: 360,
+    img: imgCare,
     desc: 'Designed for dementia-care nurses at Apex Harmony Lodge. Nurses can write on the acrylic panel and reattach it magnetically to the Ferris wheel.',
   },
   {
     title: 'Photography',
     tag: 'People · Scenery · Food',
     height: 260,
+    img: imgPhotography,
     desc: 'A collection of photographic work spanning people, scenery, and food. Locations include Japan and Indonesia.',
   },
   {
     title: 'Videography',
     tag: 'Lasalle Internship 2023 · Van Cleef 2025',
     height: 300,
+    img: imgVideography,
     desc: 'Video work from the Lasalle College of the Arts internship (2023) and coverage of the Van Cleef & Arpels exhibition visit (2025).',
   },
 ];
@@ -118,9 +135,12 @@ export default function Work() {
         <div className="work-grid">
           {projects.map((p) => (
             <div className="work-card" key={p.title}>
-              <div className="card-img img-placeholder" style={{ height: p.height }}>
-                {p.title}
-              </div>
+              <img
+                src={p.img}
+                alt={p.title}
+                className="card-img"
+                style={{ height: p.height, width: '100%', objectFit: 'cover', display: 'block' }}
+              />
               <div className="card-overlay">
                 <div className="overlay-title">{p.title}</div>
                 <p className="overlay-desc">{p.desc}</p>
