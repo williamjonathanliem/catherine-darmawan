@@ -45,13 +45,13 @@ export default function Contact() {
                 catherinesignature@gmail.com
               </a>
             </div>
-            <div className="c-sep" />
+            {/* <div className="c-sep" />
             <div className="contact-row">
               <span className="c-label">Phone</span>
               <a href="tel:+6580522239" className="c-value c-link">
                 +65 8052 2239
               </a>
-            </div>
+            </div> */}
             <div className="c-sep" />
             <div className="contact-row">
               <span className="c-label">Location</span>
