@@ -72,16 +72,21 @@ const projects = [
 ];
 
 const digitalSkills = [
-  'Microsoft Word', 'Adobe Illustrator', 'Adobe Photoshop',
-  'PowerPoint', 'Google Slides', 'AutoCAD', 'Rhino 7', 'Canva',
+  'Adobe Illustrator', 'Adobe Photoshop',
+  'Rhino 3D', 'AutoCAD', 'Canva',
+  'Microsoft Office Suite', 'Google Workspace',
+  'Photography & Photo Editing',
+  'Videography & Video Editing',
 ];
 
 const practicalSkills = [
   'Enameling — Champleve & Cloisonné',
   'Metalsmithing on Brass, Silver & Copper',
-  'Wirework', 'Repousse', 'Soldering',
-  'Lost Wax Technique (basic)',
-  'Mockup with Jelutong & Pine Wood',
+  'Wirework & Stone Setting',
+  'Repousse & Metal Forming',
+  'Soldering & Finishing',
+  'Basic Lost Wax Casting',
+  'Foam & Wood Mock-up Prototyping',
 ];
 
 export default function Work() {

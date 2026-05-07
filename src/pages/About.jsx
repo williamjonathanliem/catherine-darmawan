@@ -13,28 +13,32 @@ const education = [
 
 const experience = [
   {
-    company: 'Lasalle College of the Arts',
-    period: '2023 · 3-Day Internship',
-    role: 'Content creator — videographer, editor, and interviewer.',
+    company: 'Carat 55 — The Diamond Studio',
+    period: 'Jan 2025 – Present · Internship',
+    role: 'Designed 10+ jewellery concepts for client and small-scale projects. Supported senior designers with sketches, mood boards, CAD references, and material research.',
+  },
+  {
+    company: 'DeRocks Trading PTE LTD',
+    period: 'May–Nov 2025 · Internship',
+    role: 'Developed 25+ jewellery concepts and custom design prototypes. Applied fabrication techniques including soldering, wirework, repousse, enameling, and metal finishing on brass, silver, and copper.',
   },
   {
     company: 'Nanyang Academy of Fine Arts',
-    period: '2023–2025 · Part-time',
-    role: 'School of Media & Design — editor, photographer, organiser.\nSchool of Young Talents — assisted children to their classrooms.',
+    period: '2023–2024 · Part-time',
+    role: 'School of Media & Design — organised 20+ events and exhibitions, managed photography and visual documentation, edited multimedia content.\nSchool of Young Talents — supervised 50+ children during classroom activities and creative learning sessions.',
   },
   {
-    company: 'Derocks Trading PTE LTD',
-    period: 'May–Nov 2025 · Internship',
-    role: 'Jewellery designer.',
+    company: 'Lasalle College of the Arts',
+    period: 'Jan 2023 · Internship',
+    role: 'Produced and edited 15+ short-form videos for institutional media campaigns. Conducted interviews and coordinated media coverage for 10+ creative events.',
   },
 ];
 
 const awards = [
-  'Batik Course · Museum Batik Yogyakarta (2015)',
-  'Colossal Drama · Buah Hati & Cita Hati School (2016)',
-  'Being a Good Example · Cita Hati School (2016)',
   'Commercial Arrangement · Shesan Blossom Florist (2022)',
   'Building Good Concept into Creative Media Workshop · NAFA (2022)',
+  'Student exhibitions and jewellery showcase presentations · NAFA',
+  'Recognised for creative craftsmanship and jewellery prototyping during academic showcases · NAFA',
 ];
 
 export default function About() {
@@ -73,8 +77,8 @@ export default function About() {
             <p className="section-label reveal">About</p>
             <h2 className="about-heading reveal">Catherine<br />Darmawan</h2>
             <p className="about-bio reveal">
-              A final year student at Nanyang Academy of Fine Arts, specialising in Object &amp; Jewellery
-              design. Over three years of rigorous making, Catherine has grown from learning the foundations
+              A graduate of Nanyang Academy of Fine Arts, where she earned her Diploma in Object &amp; Jewellery
+              Design. Over three years of rigorous making, Catherine has grown from learning the foundations
               of metalsmithing into a designer with a distinct voice — one that draws equally from nature,
               narrative, and the quiet beauty of handcraft. Based in Singapore, she approaches every piece
               as a conversation between material and meaning.

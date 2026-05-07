@@ -37,7 +37,7 @@ export default function Contact() {
             <LaceBorder color="#d4959a" opacity={0.5} />
           </div>
 
-          {/* Contact details — click email to open mail app */}
+          {/* Contact details — click to open */}
           <div className="contact-block reveal">
             <div className="contact-row">
               <span className="c-label">Email</span>
@@ -45,13 +45,13 @@ export default function Contact() {
                 catherinesignature@gmail.com
               </a>
             </div>
-            {/* <div className="c-sep" />
+            <div className="c-sep" />
             <div className="contact-row">
-              <span className="c-label">Phone</span>
-              <a href="tel:+6580522239" className="c-value c-link">
-                +65 8052 2239
+              <span className="c-label">LinkedIn</span>
+              <a href="https://linkedin.com/in/catherinedarmawan" target="_blank" rel="noreferrer" className="c-value c-link">
+                linkedin.com/in/catherinedarmawan
               </a>
-            </div> */}
+            </div>
             <div className="c-sep" />
             <div className="contact-row">
               <span className="c-label">Location</span>
