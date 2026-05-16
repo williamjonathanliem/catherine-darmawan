@@ -13,9 +13,9 @@ const education = [
 
 const experience = [
   {
-    company: 'Carat 55 — The Diamond Studio',
-    period: 'Jan 2025 – Present · Internship',
-    role: 'Designed 10+ jewellery concepts for client and small-scale projects. Supported senior designers with sketches, mood boards, CAD references, and material research.',
+    company: 'Carat 55 — The Diamond Studio & Mus.za Fine Jewellery',
+    period: 'Jan 2025 – Present · Part-time',
+    role: 'Redesigned client heirloom pieces into new pendants and rings. Developed jade collection concepts including bangles, hoop earrings, charms, and four-leaf clover motifs. Created initial pendant designs set with diamonds. Handled jewellery photography for Mus.za Fine Jewellery events.',
   },
   {
     company: 'DeRocks Trading PTE LTD',
@@ -39,6 +39,7 @@ const awards = [
   'Building Good Concept into Creative Media Workshop · NAFA (2022)',
   'Student exhibitions and jewellery showcase presentations · NAFA',
   'Recognised for creative craftsmanship and jewellery prototyping during academic showcases · NAFA',
+  'Student Ambassador — Photographer · Nanyang Academy of Fine Arts',
 ];
 
 export default function About() {

@@ -634,6 +634,24 @@ body {
   margin-bottom: 64px;
 }
 
+.work-group {
+  margin-bottom: 16px;
+}
+
+.work-group-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.work-group-company {
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+  font-weight: 700;
+  color: var(--text-head);
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+}
+
 .page-heading {
   font-family: var(--font-serif);
   font-size: clamp(40px, 5vw, 68px);
