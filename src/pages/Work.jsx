@@ -34,12 +34,16 @@ import imgJade5           from '../assets/works/jade5.png';
 import imgFourLeaf        from '../assets/works/four_leaf.png';
 import imgFourLeaf2       from '../assets/works/four_leaf2.png';
 import imgInitialPendant  from '../assets/works/initial_pendant.png';
+import imgJadeSpring      from '../assets/works/jade_spring_collection.png';
+import imgRabbitJade      from '../assets/works/rabbit_jade_collection.png';
+import imgPokerCoins      from '../assets/works/custom_poker_coins.jpg';
 
 /* ── NAFA Jewellery ── */
 import imgOrchid          from '../assets/works/orchird.png';
 import imgVendetta        from '../assets/works/vendetta.png';
 import imgUntitled        from '../assets/works/untitled.png';
 import imgEnameling       from '../assets/works/enameling.png';
+import imgBatikNecklace   from '../assets/works/batik_necklace.jpg';
 
 /* ── NAFA Object Design ── */
 import imgBake            from '../assets/works/bake.png';
@@ -48,6 +52,8 @@ import imgCare            from '../assets/works/care.png';
 /* ── Photography & Videography ── */
 import imgPhotography     from '../assets/works/photography.png';
 import imgVideography     from '../assets/works/videography.gif';
+import imgMuszaEvent      from '../assets/works/musza_event_photography.jpg';
+import imgNafaAmbassador  from '../assets/works/nafa_ambassador_photography.jpg';
 
 const groups = [
   {
@@ -251,6 +257,27 @@ const groups = [
         img: imgInitialPendant,
         desc: 'Initial pendant designs in round (12.8mm) and rectangular (13mm) formats, featuring engraved letters with a bezel-set diamond accent.',
       },
+      {
+        title: 'Jade Necklace — Spring Collection',
+        tag: 'Green Jade · Cherry Blossom · Pink Accents',
+        height: 380,
+        img: imgJadeSpring,
+        desc: 'A spring capsule of donut-jade pendants trailing hand-painted cherry blossom vines with pink stone centres. Nine design directions explored, from single statement blooms to cascading floral sprays.',
+      },
+      {
+        title: 'Rabbit Jade Collection',
+        tag: 'Pink & Grey Jade · Bunny Motif · Symbolism',
+        height: 320,
+        img: imgRabbitJade,
+        desc: 'A symbolic collection pairing jade (protection, peace) with the rabbit (emotional security, soft intuition) — grey cabochon jade bunny earrings and a strawberry-and-clover framed pendant, plus pink jade bunny bangles.',
+      },
+      {
+        title: 'Custom Monogram Poker Coins',
+        tag: 'Gold · Enamel · Spade & Heart',
+        height: 300,
+        img: imgPokerCoins,
+        desc: 'A pair of 39mm gold casino-style coins engraved with the client’s initials — an "A" ringed with black-enamel spades and an "M" ringed with red-enamel hearts. Taken from CAD sketch to finished cast piece.',
+      },
     ],
   },
   {
@@ -285,6 +312,13 @@ const groups = [
         height: 300,
         img: imgEnameling,
         desc: 'Four motifs: fish, Egyptian half-circle, flower & leaf, and a fountain with bird and cloud. Two enameling techniques on copper flat sheet.',
+      },
+      {
+        title: 'Batik-Inspired Necklace',
+        tag: 'Copper · Engraved Acrylic · Tourmaline & Sapphire',
+        height: 380,
+        img: imgBatikNecklace,
+        desc: 'A statement necklace built from a copper cut-out of the Truntum batik motif, with acrylic panels laser-engraved in the same pattern. Set with pink tourmaline and green sapphire drops.',
       },
     ],
   },
@@ -327,6 +361,20 @@ const groups = [
         height: 300,
         img: imgVideography,
         desc: 'Video work from the Lasalle College of the Arts internship (2023) and coverage of the Van Cleef & Arpels exhibition visit (2025).',
+      },
+      {
+        title: 'Mus.za Fine Jewellery — Event Photography',
+        tag: 'Product Photography · Opal Suite',
+        height: 260,
+        img: imgMuszaEvent,
+        desc: 'Event coverage for Mus.za Fine Jewellery, photographing high-value pieces on display — including a matched opal necklace-and-earring suite framed in white sapphire and pink diamond.',
+      },
+      {
+        title: 'NAFA Student Ambassador — Photographer',
+        tag: 'Event Documentation · Exhibitions',
+        height: 320,
+        img: imgNafaAmbassador,
+        desc: 'Appointed a NAFA Student Ambassador working as an event photographer, documenting exhibitions, openings, and fashion and object showcases across the academy.',
       },
     ],
   },
