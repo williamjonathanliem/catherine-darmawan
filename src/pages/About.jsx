@@ -14,31 +14,31 @@ const education = [
 const experience = [
   {
     company: 'Carat 55 — The Diamond Studio & Mus.za Fine Jewellery',
-    period: 'Jan 2025 – Present · Part-time',
-    role: 'Redesigned client heirloom pieces into new pendants and rings. Developed jade collection concepts including bangles, hoop earrings, charms, and four-leaf clover motifs. Created initial pendant designs set with diamonds. Handled jewellery photography for Mus.za Fine Jewellery events.',
+    period: 'Jan 2026 – Present · Part-time',
+    role: 'Designed 10+ jewellery concepts for clients, including heirloom redesigns, a jade collection and initial pendants. Supported senior designers with sketches, mood boards, and material research. Joined strategic planning and operational meetings, contributing insights to improve workflows. Captured 50+ photos and video content with a professional camera for corporate events, elevating the brand across Instagram.',
   },
   {
     company: 'DeRocks Trading PTE LTD',
     period: 'May–Nov 2025 · Internship',
-    role: 'Developed 25+ jewellery concepts and custom design prototypes. Applied fabrication techniques including soldering, wirework, repousse, enameling, and metal finishing on brass, silver, and copper.',
+    role: 'Assisted in developing 10+ jewellery concepts and custom design prototypes for client and commercial projects. Collaborated with senior designers and production teams on material selection and technical drawings.',
   },
   {
     company: 'Nanyang Academy of Fine Arts',
-    period: '2023–2024 · Part-time',
-    role: 'School of Media & Design — organised 20+ events and exhibitions, managed photography and visual documentation, edited multimedia content.\nSchool of Young Talents — supervised 50+ children during classroom activities and creative learning sessions.',
+    period: '2023–2025 · Part-time',
+    role: 'School of Media & Design — supported 5+ school events, exhibitions, and creative workshops; managed photography and visual documentation used across school publications and promotional materials; edited multimedia content with design teams.\nSchool of Young Talents — assisted and supervised 40+ children during classroom activities and workshops.',
   },
   {
-    company: 'Lasalle College of the Arts',
-    period: 'Jan 2023 · Internship',
-    role: 'Produced and edited 15+ short-form videos for institutional media campaigns. Conducted interviews and coordinated media coverage for 10+ creative events.',
+    company: 'Lasalle College of the Arts · Surabaya, Indonesia',
+    period: 'Jan 2023 · Content Creator Intern',
+    role: 'Produced and edited 15+ short-form videos and event highlights for institutional media campaigns and student showcases. Interviewed lecturers from different majors and assisted across photography, videography, and post-production under tight deadlines.',
   },
 ];
 
 const awards = [
   'Commercial Arrangement · Shesan Blossom Florist (2022)',
-  'Building Good Concept into Creative Media Workshop · NAFA (2022)',
+  'Building Good Concept into Creative Media Workshop · NAFA (2023)',
   'Student exhibitions and jewellery showcase presentations · NAFA',
-  'Recognised for creative craftsmanship and jewellery prototyping during academic showcases · NAFA',
+  'Recognised for creative craftsmanship and jewellery prototyping during academic showcases · NAFA (2026)',
   'Student Ambassador — Photographer · Nanyang Academy of Fine Arts',
 ];
 

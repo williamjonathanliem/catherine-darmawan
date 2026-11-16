@@ -54,8 +54,82 @@ import imgPhotography     from '../assets/works/photography.png';
 import imgVideography     from '../assets/works/videography.gif';
 import imgMuszaEvent      from '../assets/works/musza_event_photography.jpg';
 import imgNafaAmbassador  from '../assets/works/nafa_ambassador_photography.jpg';
+import imgTravel          from '../assets/works/travel_photography.jpg';
+
+/* ── Design Collection ── */
+import imgNeoPendant      from '../assets/works/neo_pendant_brooch.jpg';
+import imgNeoRings        from '../assets/works/neo_stackable_rings.jpg';
+import imgNeoEarrings     from '../assets/works/neo_detachable_earrings.jpg';
+import imgNeoBracelet     from '../assets/works/neo_mens_bracelet.jpg';
+import imgCloudEarrings   from '../assets/works/cloud_earrings.jpg';
+import imgCloudNecklace   from '../assets/works/cloud_necklace.jpg';
+import imgCloudBangle     from '../assets/works/cloud_bangle.jpg';
+import imgCloudBrooch     from '../assets/works/cloud_mens_brooch.jpg';
 
 const groups = [
+  {
+    id: 'collection',
+    company: 'Design Collection',
+    badge: 'Gold · Gemstones · Enamel',
+    projects: [
+      {
+        title: 'Neofinetia Pendant & Brooch',
+        tag: '24k Gold · Pear-Cut Stone · Green Accents',
+        height: 340,
+        img: imgNeoPendant,
+        desc: 'A sculptural gold piece inspired by the Neofinetia falcata orchid, worn two ways — as a pendant on a chain or pinned as a brooch. Shown from front, back, side and on the neck.',
+      },
+      {
+        title: 'Stackable Rings',
+        tag: '24k Gold · White Topaz · Peridot',
+        height: 340,
+        img: imgNeoRings,
+        desc: 'A two-ring set that locks together: a v-shaped crown set with white topaz and angled pear-cut peridot, and a leaf-veined band with a pear-cut topaz accent. Wear them stacked, or each on its own — 3-in-1 wearability.',
+      },
+      {
+        title: 'Detachable Earrings',
+        tag: 'Gold · Convertible · Leaf Stem',
+        height: 300,
+        img: imgNeoEarrings,
+        desc: 'A two-piece earring: wear the leaf stem alone as a daily minimalist stud, or attach the lower jacket behind the lobe for a statement look.',
+      },
+      {
+        title: "Men's Bracelet",
+        tag: 'Braided Leather · 24k Gold Plate',
+        height: 300,
+        img: imgNeoBracelet,
+        desc: 'Matte black double-strand braided leather with a sleek horizontal gold-plated Neofinetia falcata. Cuffed gold end-caps and a one-handed hook clasp make it easy to wear every day.',
+      },
+      {
+        title: 'Cloud Motif Earrings',
+        tag: 'Gold · Blue Enamel · Pearl · Topaz',
+        height: 320,
+        img: imgCloudEarrings,
+        desc: 'Enamelled cloud earrings with fine chain tassels and blue topaz drops. Designed to be worn as a stud or with the tassels attached, with front, side and back views.',
+      },
+      {
+        title: 'Cloud Motif Necklace',
+        tag: 'Gold · Enamel · Sapphire Drop',
+        height: 300,
+        img: imgCloudNecklace,
+        desc: 'A fine-chain necklace with an enamelled cloud centre and long tassel drops ending in a blue stone. Drawn from the front, side, back and on the neck.',
+      },
+      {
+        title: 'Cloud Motif Bangle',
+        tag: 'Gold · Blue Enamel · Diamond Accents',
+        height: 360,
+        img: imgCloudBangle,
+        desc: 'A gold bangle inlaid with deep-blue cloud enamel and small stone accents, shown in three-quarter and side profile.',
+      },
+      {
+        title: "Cloud Motif Men's Brooch",
+        tag: 'Gold · Blue Enamel · Pearl',
+        height: 340,
+        img: imgCloudBrooch,
+        desc: 'A bold swirling cloud brooch in layered navy and light-blue enamel, edged with pearls. Front and back views show the pin mechanism.',
+      },
+    ],
+  },
   {
     id: 'derocks',
     company: 'DeRocks Trading PTE LTD',
@@ -157,7 +231,7 @@ const groups = [
   {
     id: 'carat55',
     company: 'Carat 55 & Mus.za Fine Jewellery',
-    badge: 'Part-time · Jan 2025 – Present',
+    badge: 'Part-time · Jan 2026 – Present',
     projects: [
       {
         title: 'Heirloom Pendant Redesign I',
@@ -375,6 +449,13 @@ const groups = [
         height: 320,
         img: imgNafaAmbassador,
         desc: 'Appointed a NAFA Student Ambassador working as an event photographer, documenting exhibitions, openings, and fashion and object showcases across the academy.',
+      },
+      {
+        title: 'Travel Photography — Bali & Japan',
+        tag: 'Documentary · Travel · Street',
+        height: 260,
+        img: imgTravel,
+        desc: 'Travel photography from Bali and Japan — temple dances at night, rice terraces, jungle details, street scenes and food.',
       },
     ],
   },
